@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-display: 'League Spartan', 'sans-serif';
+
+    /* COLORS */
+    --Desaturated-DarkCyan: hsl(180, 29%, 50%);
+    --Light-Grayish-Cyan-Bg: hsl(180, 52%, 96%);
+    --Light-Grayish-Cyan-FilterTablets: hsl(180, 31%, 95%);
+    --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+    --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+
+    --desktop-bg-img: ./assets/bg-header-desktop.svg;
+    --mobile-bg-img: url(./assets/bg-header-mobile.svg);
+}
+.asss{
+    background-image: url(./assets/bg-header-mobile.svg);
+}
+/* :root{
+    --Desaturated-DarkCyan: hsl(180, 29%, 50%);
+    --Light-Grayish-Cyan-Bg: hsl(180, 52%, 96%);
+    --Light-Grayish-Cyan-FilterTablets: hsl(180, 31%, 95%);
+    --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+    --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+
+} */
