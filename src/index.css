@@ -13,15 +13,15 @@
 
     --desktop-bg-img: ./assets/bg-header-desktop.svg;
     --mobile-bg-img: url(./assets/bg-header-mobile.svg);
-}
-.asss{
-    background-image: url(./assets/bg-header-mobile.svg);
-}
-/* :root{
-    --Desaturated-DarkCyan: hsl(180, 29%, 50%);
-    --Light-Grayish-Cyan-Bg: hsl(180, 52%, 96%);
-    --Light-Grayish-Cyan-FilterTablets: hsl(180, 31%, 95%);
-    --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
-    --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
 
-} */
+    --animate-opacity: opac 0.7s linear;
+    @keyframes opac {
+      0%,
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+}
