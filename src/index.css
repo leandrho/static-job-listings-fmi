@@ -11,8 +11,8 @@
     --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
     --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
 
-    --desktop-bg-img: ./assets/bg-header-desktop.svg;
-    --mobile-bg-img: url(./assets/bg-header-mobile.svg);
+    --desktop-bg-img: url(/images/bg-header-desktop.svg);
+    --mobile-bg-img: url(/images/bg-header-mobile.svg);
 
     --animate-opacity: opac 0.7s linear;
     @keyframes opac {
@@ -25,3 +25,14 @@
       }
     }
 }
+.headerbg{
+  background-image: url(/images/bg-header-mobile.svg);
+}
+@media screen and (min-width: 768px) {
+  .headerbg{
+    background-image: url(/images/bg-header-desktop.svg);
+  }
+}
+
+ 
+
